@@ -248,14 +248,13 @@ java -jar target/expense-tracker-0.0.1-SNAPSHOT.jar
 ---
 
 ## Author
+1.**Harish V**
+2.**Ameena Jabeen M**
 
-**M. Ameena Jabeen**
+B.E CSE(CYBER SECURITY),B.Tech Information Technology  
+R.M.K COLLEGE OF ENGINEERING AND TECHNOLOGY,R.M.D ENGINEERING COLLEGE
 
-B.Tech Information Technology  
-R.M.D Engineering College
-
-LinkedIn:https://www.linkedin.com/in/ameenajabeenmohammed2930/
-GitHub:https://github.com/Ameenajabeen
+GitHub:https://github.com/Harish0230
 
 ---
 
