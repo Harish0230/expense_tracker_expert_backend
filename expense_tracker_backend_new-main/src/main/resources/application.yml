@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: expense-tracker
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/expense_tracker
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: expense_user
+    password: expense123
+  h2:
+       enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+# Switch to MySQL by setting spring.profiles.active=mysql and using application-mysql.yml
+jwt:
+  secret: "3c8b1e9f5d2a47c6b0e8d4f1a9c2b7e6d5f3a8c1b9e0d4f7a2c6b8e1d3f5a9c0"
+  expiration-ms: 86400000        # 24 hours
+  refresh-expiration-ms: 604800000 # 7 days
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+cors:
+  allowed-origins: "http://localhost:3000,http://localhost:5173,http://localhost:8080"
